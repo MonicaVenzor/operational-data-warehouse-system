@@ -1,1 +1,12 @@
-#
+---
+
+## 🐍 Python
+
+The `python` folder contains a Jupyter Notebook that demonstrates:
+- Connecting Python to the Little Lemon MySQL database using `mysql-connector`
+- Executing SQL queries and stored procedures
+- Retrieving and displaying results for analysis
+
+All database credentials have been removed.
+
+---
