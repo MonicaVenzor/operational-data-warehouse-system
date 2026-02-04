@@ -1,48 +1,37 @@
-# db-capstone-project by Monica Venzor
-# Little Lemon Database Capstone Project
+# Data Engineering Portfolio: Little Lemon Operational Warehouse
+By Monica Venzor | Biotechnology & Data Engineering
+This repository showcases the end-to-end design and implementation of a Data Warehouse for operational management. While the case study is based on the food industry (Little Lemon), the architecture is built following principles of scalability, data integrity, and governance—skills that are critical in highly regulated industrial environments.
 
-This repository contains the final capstone project for the Meta Database Engineer program on Coursera, developed for the fictional restaurant Little Lemon.
+# 🏗️ Architecture & Technical Capabilities
+The project demonstrates a complete data engineering workflow:
 
-The project demonstrates the complete database engineering workflow, including database design, SQL development, data analysis, and database interaction using MySQL, Python, and Tableau.
+1. Data Modeling & SQL Development
+  Relational Design: Implementation of a robust schema (Star Schema/Normalized) to ensure data consistency and reduce redundancy.
+  Server-Side Logic: Development of Stored Procedures to automate critical business processes (bookings, cancellations, and sales reporting), optimizing performance by keeping logic close to the data.
+  Data Quality & Governance: Implementation of constraints and validation rules to ensure data remains reliable and "audit-ready"—a direct application of scientific rigor to data management.
 
----
+3. Integration & Automation (Python)
+  DB-API Connectivity: Using the mysql-connector-python to establish secure connections for data extraction.
+  Programmatic Data Handling: Executing complex queries and procedures through Python to bridge the gap between raw storage and analytical insights.
 
-## 📂 Project Structure
+3. Business Intelligence (Tableau)
+  KPI Visualization: Transformation of raw data into actionable insights through interactive dashboards, focusing on sales trends, profitability, and operational efficiency.
 
-The project is organized into three main components:
+# 📂 Repository Structure
+database/: Contains the EER (Entity-Relationship) models, schema creation scripts, and optimized Stored Procedures.
 
-### 📁 database/
-Contains all database-related assets, including:
-- MySQL Workbench data model and ER diagram
-- SQL scripts developed throughout the course modules
-- Stored procedures required for the final assessment
-- Screenshots provided as visual evidence for peer review
+python/: Integration notebooks demonstrating the ability to handle data programmatically.
 
-Detailed explanations are available inside the `database` folder.
+tableau/: Visual analysis layer for business result interpretation.
 
----
+# 🧪 The "Bio-Data" Advantage
+Coming from a Biotechnology background, my approach to data is rooted in Compliance and Traceability.
 
-### 📁 python/
-Contains a Jupyter Notebook that demonstrates:
-- Connecting to the Little Lemon MySQL database using Python
-- Executing SQL queries and stored procedures
-- Retrieving data for analysis
+"I apply scientific rigor to data validation, ensuring that every record is consistent and traceable. This mindset is essential in industries where data integrity isn't just a technical requirement, but a regulatory necessity."
 
-All credentials have been removed.
+# ✅ Skills Demonstrated
+Languages: SQL (MySQL), Python.
 
----
+Tools: MySQL Workbench, Tableau, Jupyter Notebooks.
 
-### 📁 tableau/
-Contains screenshots of data visualizations created using Tableau, including:
-- Worksheets
-- Sales and profit analysis
-- Interactive dashboards generated from the Little Lemon database
-
-More details can be found in the `tableau` folder README.
-
----
-
-## ✅ Notes
-- The repository is organized to follow the structure of the course modules.
-- All required stored procedures for the final project assessment are implemented.
-- The project focuses on meeting Coursera’s grading criteria.
+Core Concepts: EER Modeling, Stored Procedures, Data Integrity, ETL Fundamentals.
